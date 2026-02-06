@@ -17,3 +17,27 @@ print(job.replace("Software", "AI")) # software word is replaced with AI
 print(job.find("AI")) # This gives -1 because it can't find anything like that
 
 print(job.count("nced")) # count the occurance of the substring
+
+# Take User Input first name and print length
+
+first_name = input("Enter your First Name :")
+#first_name = print(len(input("Enter your First Name :")))
+# print(len(first_name))
+
+#Occurence of $ 
+money = "$Dollar $Paypal $CreditCard $Debt $Youtube"
+print(money.count("$"))
+
+#Conditional Statement 
+marks = int(input("Enter Student Marks : "))
+
+if(marks >= 90):
+    grade = "A"
+elif(marks < 90 and marks >= 80):
+    grade = "B"
+elif(marks < 80 and marks >= 70):
+    grade = "C"
+else:
+    grade = "D"
+
+print(first_name , "got grade :" , grade)
