@@ -26,3 +26,30 @@ print(marks)
 
 marks.insert(3,7) #insert(at index , what element)
 print(marks)
+
+fruits = ["Banana" , "Litchi" , "Apple" , "Pomegranate"]
+print(sorted(fruits))
+fruits.sort(reverse=True)
+print(fruits)
+
+fruits.remove("Apple") # whatever given that first element removed
+print(fruits)
+
+fruits.pop(2) # removes at that index 
+print(fruits)
+
+""" Tuples 
+ It is Immutable like String """
+
+tup = (12,13,21,20,19,15,12,11,12,12)
+print(type(tup))
+
+# tup[3] = 29 it is not possible 
+
+print(len(tup))
+print(tup[5])
+
+tup1 = (1,) # this is valid if only one single element is there because if you don't give comma python think int element written in bracket
+
+print(tup.count(12))
+print(tup.index(21))
