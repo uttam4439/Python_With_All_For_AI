@@ -53,3 +53,30 @@ tup1 = (1,) # this is valid if only one single element is there because if you d
 
 print(tup.count(12))
 print(tup.index(21))
+
+# Ask user 3 movie and collect it in list
+movie = []
+movie.append(input("Enter 1st Movie : "))
+movie.append(input("Enter 2nd Movie : "))
+movie.append(input("Enter 3rd Movie : "))
+
+print(movie)
+
+# is given list palindrome ?
+l1 = [1,2,3,2,1]
+
+l2 = l1.copy()
+l2.reverse()
+
+if(l1 == l2):
+    print("Palindrome")
+else:
+    print("Not Palindrome")
+
+# count A
+tup2 = ("C","D","A","A","B","B","A")
+print(tup2.count("A"))
+
+ltup2 = list(tup2)
+ltup2.sort()
+print(ltup2)
