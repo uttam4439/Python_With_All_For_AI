@@ -69,3 +69,16 @@ dict = {
     "cat" : "a small animal"
 }
 print(dict)
+
+count_classroom = {"python","java","python","java","python","java","C++","python","javascript","python","C++","C","C"}
+print(len(count_classroom))
+
+marks = {}
+marks1 = int(input("Enter Phy Marks :"))
+marks.update({"phy" : marks1})
+marks2 = int(input("Enter Chem Marks :"))
+marks.update({"chem" : marks2})
+marks3 = int(input("Enter Maths Marks :"))
+marks.update({"Maths" : marks3})
+
+print(marks)
