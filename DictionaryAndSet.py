@@ -82,3 +82,10 @@ marks3 = int(input("Enter Maths Marks :"))
 marks.update({"Maths" : marks3})
 
 print(marks)
+
+# Store 9 and 9.0
+num = {"int" : 9 , "float" : 9.0 }
+print(num)
+
+num2 = {9,'9.0'}
+print(num2)
